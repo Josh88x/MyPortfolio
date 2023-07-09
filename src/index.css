@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.greenbg{
+    background: linear-gradient(to bottom right, black, rgba(0, 0, 0, 0.306)), url('./imgs/greenSolarLights.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #016b0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #04ff15;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #03ac0e;
+}
